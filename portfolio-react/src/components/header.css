@@ -4,4 +4,20 @@ header {
   border-bottom-style: solid;
   background-color: gray;
   color: white;
+
+  a {
+    padding-left: 10px;
+  }
+  a:link {
+    color: white;
+  }
+
+  a:visited {
+    color: white;
+  }
+
+  a:active {
+    color: white;
+  }
+
 }

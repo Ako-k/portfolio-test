@@ -7,6 +7,10 @@ function Header() {
     <header>
       <h1><FaAddressBook /> My Portfolio <FaAddressBook /></h1>
 
+      <a href='/'>Top</a>
+      <a href='/about'>About</a>
+      <a href='/works'>Works</a>
+      <a href='/contacts'>Contacts</a>
     </header>
   );
 }
