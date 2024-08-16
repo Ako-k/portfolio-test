@@ -10,7 +10,7 @@ function Header() {
       <a href='/'>Top</a>
       <a href='/about'>About</a>
       <a href='/works'>Works</a>
-      <a href='/contacts'>Contacts</a>
+      <a href='/skills'>Skills</a>
     </header>
   );
 }

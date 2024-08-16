@@ -3,7 +3,7 @@ import React from 'react';
 import Header from './components/header.js'
 import Top from './components/top/top.js'
 import About from './components/about/about.js'
-import Contacts from './components/contacts/contacts.js'
+import Skills from './components/skills/skills.js'
 import Works from './components/works/works.js'
 import {
   BrowserRouter as Router,
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Top />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/works" element={<Works />} />
         </Routes>
       </Router>
