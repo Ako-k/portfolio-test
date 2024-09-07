@@ -18,6 +18,9 @@ header {
 
   a:active {
     color: white;
-  }
+  }  
+}
 
+.user-icon {
+  font-size: 20px;
 }

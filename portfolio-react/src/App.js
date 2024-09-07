@@ -1,4 +1,6 @@
 import './App.css';
+import "nes.css/css/nes.min.css";
+import "nes.icons/css/nes-icons.min.css";
 import React from 'react';
 import Header from './components/header.js'
 import Top from './components/top/top.js'

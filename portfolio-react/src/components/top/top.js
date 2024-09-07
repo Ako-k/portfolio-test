@@ -26,7 +26,7 @@ function TestData() {
 function Top() {
   return (
     <div>
-      <p>Top page</p>
+      <p>よおこそ</p>
 
       { TestData() }
 
