@@ -2,7 +2,7 @@ header {
   border-bottom-width: 1px;
   border-bottom-color: black;
   border-bottom-style: solid;
-  background-color: gray;
+  background-color: darkblue;
   color: white;
 
   a {
@@ -23,4 +23,8 @@ header {
 
 .user-icon {
   font-size: 20px;
+}
+
+.header-frame {
+  padding: 10px 30px 5px 30px;
 }

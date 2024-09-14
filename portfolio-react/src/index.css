@@ -5,6 +5,8 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
+  color: white;
 }
 
 html,body,pre,code,kbd,samp {
@@ -16,4 +18,8 @@ html,body,pre,code,kbd,samp {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-frame { 
+  padding: 10px 30px 20px 30px;
 }

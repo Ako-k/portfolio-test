@@ -18,17 +18,15 @@ function TestData() {
     }
   };
 
-  return <div> test </div>;
+  return (<h1>{testData.value}</h1>)
 }
 
 
 
 function Top() {
   return (
-    <div>
-      <p>よおこそ</p>
-
-      { TestData() }
+    <div class='main-frame'>
+      {TestData()}
 
     </div>
   );

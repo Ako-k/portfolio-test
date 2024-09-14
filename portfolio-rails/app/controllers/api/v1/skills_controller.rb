@@ -3,7 +3,7 @@ module Api
     class SkillsController < ActionController::Base
       def index
         return_value = {
-          value: "test"
+          value: "よおこそ"
         }
     
         render json: return_value, status: :ok
