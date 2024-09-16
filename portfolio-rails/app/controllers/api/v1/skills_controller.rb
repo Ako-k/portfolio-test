@@ -8,6 +8,14 @@ module Api
     
         render json: return_value, status: :ok
       end
+
+      def hello
+        return_value = {
+          value: "よおこそ"
+        }
+    
+        render json: return_value, status: :ok
+      end
     end
   end
 end

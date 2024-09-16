@@ -4,5 +4,6 @@ export const getTest = () => {
   return client.get('/skills')
 };
 
-
-export default getTest;
+export const getHello = () => {
+  return client.get('/skills/hello')
+};
