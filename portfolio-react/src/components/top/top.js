@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getHello } from '../api/api.js';
-
+import Tooltip from '../tooltip/tooltip.js';
 
 function CheckHello() {
   const [returnData, setReturnData] = useState({});
@@ -19,16 +19,18 @@ function CheckHello() {
     }
   };
 
-  if (returnData.value == null) 
+  if (returnData.value == null) {
     return (
       <h1>
         ようこそ
-        <i class='nes-icon exclamation user-icon'></i>
+        <Tooltip content='Error：バックエンドサーバが利用できません'>
+          <i class='nes-icon exclamation-triangle-alt user-icon'></i>
+        </Tooltip>
       </h1>
     )
-  else
+  } else {
     return (<h1>{returnData.value}</h1>)
-  end 
+  }
 }
 
 
