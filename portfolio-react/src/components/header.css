@@ -7,6 +7,8 @@ header {
 
   a {
     padding-left: 10px;
+    position: relative;
+    z-index: 100;
   }
   a:link {
     color: white;
