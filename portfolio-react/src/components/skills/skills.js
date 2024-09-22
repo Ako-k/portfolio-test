@@ -5,9 +5,9 @@ function Skills() {
     <div>
       <p>Skills page</p>
 
-      <div>
-        <h3>【所持資格】</h3>
-        <ul>
+      <div class='lists'>
+        <h3>【しかく】</h3>
+        <ul class='nes-list is-circle'>
           <li>ITパスポート試験</li>
           <li>基本情報技術者試験</li>
           <li>応用情報技術者試験</li>

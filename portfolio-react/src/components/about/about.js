@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import { konamiCommand } from '../command/command.js';
 
 function About() {
   return (
@@ -33,6 +34,10 @@ function About() {
               <i class='nes-icon gmail'></i>
             </th>
             <td>aaa@sjc-inc.co.jp</td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>{konamiCommand()}</td>
           </tr>
         </table>
       </div>
