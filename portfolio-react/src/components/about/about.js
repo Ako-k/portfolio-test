@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import { konamiCommand } from '../command/command.js';
+import { KonamiCommand } from '../command/command.js';
 
 function About() {
   return (
@@ -35,11 +35,9 @@ function About() {
             </th>
             <td>aaa@sjc-inc.co.jp</td>
           </tr>
-          <tr>
-            <th></th>
-            <td>{konamiCommand()}</td>
-          </tr>
+          {KonamiCommand()}
         </table>
+        <div class='secret-strings'> Press up arrow key !!!</div>
       </div>
     </div>
   );
