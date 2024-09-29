@@ -23,7 +23,7 @@ export const KonamiCommand = () => {
     }
   }
 
-  if(secretData == ''){
+  if(secretData === ''){
     return(
       <div></div>
     )
