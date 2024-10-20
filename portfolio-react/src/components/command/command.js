@@ -19,13 +19,21 @@ export const KonamiCommand = () => {
 
     if(idx === 10){
       console.log('success!');
-      setSecretData('Success!!')
+      setSecretData('success!')
+      // setSecretData("<a href='/secret'>【？】</a>")
     }
   }
 
   if(secretData === ''){
     return(
       <div></div>
+    )
+  }else if(secretData === 'success!'){
+    return (
+      <tr>
+        <th></th>
+        <td><a href='/secret'>【？】</a></td>
+      </tr>
     )
   }else{
     return(
